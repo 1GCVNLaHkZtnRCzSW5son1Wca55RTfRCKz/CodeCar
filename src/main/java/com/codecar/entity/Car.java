@@ -1,3 +1,5 @@
+package com.codecar.entity;
+
 /**
  * Created by Paul on 9/14/2016.
  */

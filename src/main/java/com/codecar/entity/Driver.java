@@ -1,3 +1,5 @@
+package com.codecar.entity;
+
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -28,7 +30,7 @@ public enum Driver {
     }
 
     private static Map<Integer, Driver> buildDriverToNumber(){
-        Map<Integer, Driver> numberToDriver = new HashMap<>();
+        Map<Integer, Driver> numberToDriver = new HashMap<Integer, Driver>();
         for (Driver driver : values()){
             numberToDriver.put(driver.getCarNumber(), driver);
         }
